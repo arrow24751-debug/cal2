@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import * as math from 'mathjs';
-import { CalcMode, HistoryEntry } from '../types';
-import Display from './Display';
-import Keypad from './Keypad';
-import HistoryPanel from './HistoryPanel';
+import { CalcMode, HistoryEntry } from '../types.ts';
+import Display from './Display.tsx';
+import Keypad from './Keypad.tsx';
+import HistoryPanel from './HistoryPanel.tsx';
 
 const ScientificCalculator: React.FC = () => {
   const [expression, setExpression] = useState('');

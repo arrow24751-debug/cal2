@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import ScientificCalculator from './components/ScientificCalculator';
+import ScientificCalculator from './components/ScientificCalculator.tsx';
 
 const App: React.FC = () => {
   return (
